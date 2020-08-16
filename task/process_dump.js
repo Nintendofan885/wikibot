@@ -2,7 +2,7 @@
  * @name Process Wikimedia database backup dumps data
  * 
  * @fileoverview Sample for importing Wikimedia database backup dumps data to
- *               user-created database on Tool Labs. [zh] 應用工具: 遍歷所有 dumps data
+ *               user-created database on Toolforge. [zh] 應用工具: 遍歷所有 dumps data
  *               之頁面，並將資料寫入 .csv file，進而匯入 database。
  * 
  * @see https://www.mediawiki.org/wiki/Manual:Importing_XML_dumps#Using_importDump.php.2C_if_you_have_shell_access
