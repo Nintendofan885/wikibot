@@ -4,7 +4,7 @@
 
  test if parser working properly
 
- 2015/10/2 20:19:48	see [[維基百科:錯誤檢查專題]], https://tools.wmflabs.org/checkwiki/cgi-bin/checkwiki.cgi?project=enwiki&view=high
+ 2015/10/2 20:19:48	see [[維基百科:錯誤檢查專題]], https://checkwiki.toolforge.org/cgi-bin/checkwiki.cgi?project=enwiki&view=high
  2015/10/11 17:54:33	初版試營運
 
  */
@@ -95,7 +95,7 @@ function process_page(title) {
 	} ]);
 }
 
-var checkwiki_api_URL = 'https://tools.wmflabs.org/checkwiki/cgi-bin/checkwiki.cgi?project='
+var checkwiki_api_URL = 'https://checkwiki.toolforge.org/cgi-bin/checkwiki.cgi?project='
 		+ 'zhwiki' + '&view=bots&offset=0&id=';
 
 var node_fs = require('fs');
